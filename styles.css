@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "open sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background: url('subtle-prism.svg');
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+}
+
+#hero-description {
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.container-inputs {
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#input-date {
+    display: block;
+    height: 3rem;
+    width: 15rem;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+
+#input-lucky-number {
+    display: block;
+    text-align: center;
+    height: 3rem;
+    width: 14.78rem;
+    margin: 1.5rem auto;
+    font-size: 1.2rem;
+}
+
+#button-check {
+    display: block;
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    margin: 2rem auto;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    background-color: #15B097;
+}
+
+#message-final {
+    font-size: 2rem;
+    display: block;
+    height: 2rem;
+    margin: 1rem auto 2rem auto;
+    color: black;
+    padding: 00.5rem;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 2px solid #1C8784;
+    background: #9AEAE7;
+}
+
+footer h2 {
+    text-align: center;
+    display: block;
+    font-size: 1.75rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer ul {
+    padding-inline-start: 0;
+}
+
+footer img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.5rem 1rem;
+}
