@@ -46,6 +46,7 @@ label {
     width: 15rem;
     margin: 0.5rem auto;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 #input-lucky-number {
