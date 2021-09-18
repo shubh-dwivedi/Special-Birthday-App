@@ -31,8 +31,8 @@ const calculateSum = (date) => {
       const sumOfDate = calculateSum(date);
       checkIsNumberLucky(sumOfDate, numToCheck);
     } else if(numToCheck < 0) {
-      showMessage("Please enter positive lucky number!");
+      showMessage("please enter positive lucky number!");
     } else {
-      showMessage("pkease enter in both fields!")
+      showMessage("please enter inputs in both fields!")
     }
   });
