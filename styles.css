@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -29,11 +29,12 @@ body {
 
 .container-inputs {
     margin: auto;
+    margin-top: 1.5rem;
 }
 
 label {
     display: block;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     font-size: x-large;
     font-weight: bolder;
@@ -43,7 +44,7 @@ label {
     display: block;
     height: 3rem;
     width: 15rem;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     font-size: 1.2rem;
 }
 
@@ -52,7 +53,7 @@ label {
     text-align: center;
     height: 3rem;
     width: 14.78rem;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     font-size: 1.2rem;
 }
 
@@ -61,7 +62,7 @@ label {
     color: white;
     height: 3rem;
     width: 12rem;
-    margin: 1.5rem auto;
+    margin: 1.5rem auto 0rem auto;
     font-size: 1rem;
     font-weight: bolder;
     border: none;
@@ -71,7 +72,8 @@ label {
 #message-final {
     font-size: 1.75rem;
     display: block;
-    margin: 0rem auto 2rem auto;
+    margin: auto;
+    margin-top: 0;
     color: black;
     padding: 0.5rem;
     text-align: center;
