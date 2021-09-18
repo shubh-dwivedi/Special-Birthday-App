@@ -16,15 +16,9 @@ body {
     background: url('subtle-prism.svg');
 }
 
-.header {
-    margin: 0 auto;
+#header {
+    margin: 1rem auto;
     text-align: center;
-}
-
-#hero-description {
-    text-align: center;
-    font-size: 1.25rem;
-    font-style: italic;
 }
 
 .container-inputs {
@@ -34,7 +28,7 @@ body {
 
 label {
     display: block;
-    margin: auto;
+    margin: 1rem auto 0.5rem auto;
     text-align: center;
     font-size: x-large;
     font-weight: bolder;
@@ -63,7 +57,7 @@ label {
     display: block;
     color: white;
     height: 3rem;
-    width: 12rem;
+    width: 8rem;
     margin: 1.5rem auto 0rem auto;
     font-size: 1rem;
     font-weight: bolder;
